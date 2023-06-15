@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 350px;
+    /* max-width: 100%; */
+    margin: auto;
+    padding: 20px;
+}
+.first__row .left__box {
+    text-align: center;
+}
+.first__row .left__box h1{
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.first__row .left__box p{
+    color: hsl(300, 19%, 38%);
+    padding-block: 10px;
+
+}
+
+/* Right box */
+.first__row .right__box .rate {
+    background-color: hsl(300, 24%, 96%);
+    text-align: center;
+    padding: 10px;
+    margin-block: 10px;
+    border-radius: 5px;
+
+}
+.first__row .right__box .rate h5 {
+    padding-block: 2px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 900;
+}
+.second__row {
+    padding-block: 20px;
+}
+.second__row .box {
+    background-color: hsl(300, 43%, 22%);
+    padding: 30px;
+    margin-block: 15px;
+    border-radius: 5px;
+    color: #fff;
+}
+.second__row .box .profile {
+    display: flex;
+    column-gap: 20px;
+    padding-block: 20px;
+}
+.second__row .box .profile img {
+    border-radius: 50%;
+    border: 1px solid #fff;
+    width: 40px;
+}
+.second__row .box .profile .detail p {
+    color: hsla(300, 100%, 54%, 0.753);
+    padding-top: 2px;
+}
+.second__row .box .profile .detail h3 {
+    font-weight: 300;
+}
+
+@media screen and (min-width: 1025px) {
+    body {
+        display: flex;
+        align-items: center;
+        padding-top: 50px;
+        justify-content: center;
+    }
+    .container {
+        /* max-width: 790px; */
+        max-width: 1020px;
+        margin: auto;
+        padding: 20px;
+        /* background-color: pink; */
+
+    }
+    .first__row {
+        display: flex;
+        column-gap: 20px;
+        justify-content: center;
+    }
+    .first__row .left__box {
+        text-align: left;
+        width: 400px;
+    }
+    .first__row .right__box .second__rate{
+        margin-left: 50px
+    }
+    .first__row .right__box .third__rate{
+        margin-left: 100px
+    }
+    .first__row .right__box .rate {
+        display: flex;
+        column-gap: 20px;
+        justify-content: center;
+        width: 400px;
+
+    }
+
+    .second__row {
+        display: flex;
+        column-gap: 20px;
+    }
+    .second__row .box {
+        /* width: 300px; */
+        height: 250px;
+        padding: 10px;
+    }
+    .second__row .center__box {
+        margin-top: 30px
+    }
+    .second__row .right__box {
+        margin-top: 60px;
+    }
+}
