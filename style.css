@@ -14,7 +14,7 @@
     --font-family: font-family: 'League Spartan', sans-serif;
 }
 
-body {
+main {
     height: 100vh;
     display: flex;
     flex-direction: column;
