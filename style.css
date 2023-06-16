@@ -5,17 +5,26 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --primary-color: #fff;
+    --seconday-color: hsl(300, 43%, 22%);
+}
 .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 350px;
-    /* max-width: 100%; */
     margin: auto;
-    padding: 20px;
+    /* padding: 20px; */
+    border: 2px solid red;
 }
 .first__row .left__box {
-    text-align: center;
+    /* text-align: center; */
+    border: 2px solid blue;
 }
 .first__row .left__box h1{
-    color: hsl(300, 43%, 22%);
+    color: var(--seconday-color);
     font-weight: 700;
 }
 .first__row .left__box p{
