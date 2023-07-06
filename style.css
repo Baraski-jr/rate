@@ -33,7 +33,6 @@ main {
 .first__row .text-content {
     text-align: center;
     margin: 0;
-    border: 2px solid red;
 }
 .first__row .text-content .title{
     color: var(--seconday-color);
